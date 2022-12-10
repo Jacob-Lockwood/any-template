@@ -1,6 +1,6 @@
 {
   "name": "any-template",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Tiny tagged-template parser and stringify",
   "main": "dist/index.js",
   "type": "module",

@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "target": "ES2018",
+    "outDir": "dist",
+    "module": "es2020",
+    "declaration": true
+  },
+  "files": ["src/index.ts"],
+  "ts-node": {
+    "esm": true
+  }
+}

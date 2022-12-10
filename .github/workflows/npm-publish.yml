@@ -19,6 +19,8 @@ jobs:
           node-version: "16.15.1"
       - name: npm install
         uses: jaid/action-npm-install@v1.2.1
+        with:
+          packageManager: "pnpm"
 
   publish-npm:
     needs: build
